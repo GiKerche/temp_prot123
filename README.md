@@ -1,4 +1,4 @@
-# temp_prot123
+#  TiEBe - Timely Events Benchmark
 
 ## Overview
 
@@ -31,12 +31,11 @@ If you have suggestions or would like to contribute, let us know! We’re excite
 ## Dataset Structure
 The repository contains three main folders:
 
-`data/` Organized into subfolders for each evaluated model: gpt4o, llama3-70b, mistral-large, qwen2-70b, and sabia-3-2024-12-11.
-Each model folder contains:
-* answers/: Model responses for specific countries (Brazil, China, Portugal, France, USA) and World.
+`data/` Questions for each of the specific countries (Brazil, China, Portugal, France, USA) and for the World.
 
 `results/` Organized into subfolders for each evaluated model: gpt4o, llama3-70b, mistral-large, qwen2-70b, and sabia-3-2024-12-11.
 Each model folder contains:
+* answers/: Model responses for specific countries (Brazil, China, Portugal, France, USA) and World.
 * evaluations/: Judged responses reviewed by GPT-4o for the same regions.
 
 `code/`
